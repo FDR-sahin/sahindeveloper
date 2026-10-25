@@ -11,6 +11,18 @@ const Experience = () => {
 
   const experiences = [
     {
+      title: 'Website & App Developer',
+      company: 'Regards Tech (regardstech.com)',
+      period: '2024 – Present',
+      icon: FaBriefcase,
+      description: [
+        'Developing high-performance, responsive web applications and mobile-friendly digital interfaces.',
+        'Collaborating with cross-functional engineering teams to build custom SaaS solutions and client web portals.',
+        'Translating design wireframes and UI/UX prototypes into pixel-perfect, accessible, and optimized interactive code.',
+        'Utilizing React.js, modern JavaScript ecosystems, and API integrations to deliver scalable digital experiences.',
+      ],
+    },
+    {
       title: 'Full Stack Web Developer',
       company: 'Freelance / Independent Web Development Projects',
       period: '2024 – Present',

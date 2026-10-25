@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -40,6 +39,7 @@ const Navbar = () => {
     "Skills",
     "Experience",
     "Projects",
+    "Hackathon",
     "Contact",
   ];
 
@@ -77,7 +77,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* ✅ মোবাইল মেনু বাটন (আপডেটেড - দৃশ্যমান করার জন্য) */}
+        {/* ✅ মোবাইল মেনু বাটন */}
         <button
           className="md:hidden text-white text-2xl z-50 relative p-2.5 rounded-xl glass hover:bg-white/10 transition-all duration-300 border border-white/10 shadow-lg shadow-primary/20"
           onClick={() => setIsOpen(!isOpen)}

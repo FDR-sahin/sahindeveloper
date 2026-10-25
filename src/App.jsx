@@ -5,6 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Hackathon from './components/Hackathon';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import MouseTrail from './components/MouseTrail';
@@ -13,7 +14,7 @@ import WaveDivider from './components/WaveDivider';
 
 function App() {
   useEffect(() => {
-    // পার্টিকেল ইফেক্ট (আগের মতো)
+    // পার্টিকেল ইফেক্ট
     const createParticles = () => {
       const body = document.body;
       for (let i = 0; i < 30; i++) {
@@ -51,6 +52,8 @@ function App() {
         <Experience />
         <WaveDivider />
         <Projects />
+        <WaveDivider />
+        <Hackathon />
         <WaveDivider />
         <Contact />
         <Footer />
